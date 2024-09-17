@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-section">
+            <h1>Welcome Back</h1>
+            <p>We're thrilled to see you again and hope you're ready for a productive and enjoyable session with us.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="fb.png"></a>
+                <a href="https://www.instagram.com/accounts/login/"><img src="ig.jpg"></a>
+                <a href="https://www.tiktok.com/foryou?lang=en/"><img src="tiktok.png"></a>
+            </div>
+        </div>
 
-    <title>Home Page</title>
-<h1>Introduction</h1>
-<img src="leo-picture.jpg"width='30%'>
-<h2>BAUTISTA, LEOMAR BEN P.</h2>
-<h3>BSCS 2C Student</h3>
-<hr>
-<h3>About Me</h3>
-<p>I'm a student at Kolehiyo ng Lungsod ng Lipa taking Bachelor of Science in Computer Science. i'm 19 year's old and i live in Barangay San Carlos, Lipa City.</p>
-
-<ol>
-<li> <a href="Hobbies.html">Hobbies</a></li>
-<li> <a href="Skills.html">Skills</a></li>
-<li> <a href="ToolsandTechnology.html">Tools and Technology</a></li>
-</ol>
-<hr>
-<p>Name</p>
-<input type="text" id="name" placeholder="User Name">
- <p>Email</p>
-<input type="text" id="name" placeholder="Email"></input>
-    <p>Your message</p>
-    <textarea></textarea>
-
-
-<br>
-<label>Country</label>
-<select>
-    <option>Philippines</option>
-    <option>Japan</option>
-    <option>Korea</option>
-    <option>Thailand</option>
-</select>
-<br>
-
-<h4>Job Type</h4>
-<input type="radio" name="job type"> Full time 
-<input type="radio" name="jot type"> Part time 
-
-
-
-
+        <div class="signup-section">
+            <h2>Sign Up</h2>
+            <form action="#">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+                
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                
+                <button type="submit" class="signup-btn">Sign Up</button>
+                <button type="button" class="cancel-btn">Cancel</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
